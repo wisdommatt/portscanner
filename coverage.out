@@ -1,0 +1,7 @@
+mode: set
+github.com/wisdommatt/portscanner/scanner.go:23.63,31.16 4 1
+github.com/wisdommatt/portscanner/scanner.go:35.2,36.15 2 1
+github.com/wisdommatt/portscanner/scanner.go:31.16,34.3 2 1
+github.com/wisdommatt/portscanner/scanner.go:41.82,43.29 2 1
+github.com/wisdommatt/portscanner/scanner.go:48.2,48.16 1 1
+github.com/wisdommatt/portscanner/scanner.go:43.29,47.3 3 1
