@@ -14,18 +14,13 @@ func TestScanPort(t *testing.T) {
 			protocol:       "udp",
 			expectedStatus: "Open",
 		},
-		"using an open tcp port": {
-			port:           80,
-			protocol:       "tcp",
-			expectedStatus: "Open",
-		},
 		"using a closed udp port": {
 			port:           51999999,
 			protocol:       "udp",
 			expectedStatus: "Closed",
 		},
 		"using a closed tcp port": {
-			port:           51999999,
+			port:           519999999,
 			protocol:       "tcp",
 			expectedStatus: "Closed",
 		},
